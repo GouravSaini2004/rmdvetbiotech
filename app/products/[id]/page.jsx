@@ -3,7 +3,7 @@ import { notFound } from "next/navigation";
 import ProductDetail from "../../../components/productsdetails";
 
 async function getProduct(id) {
-  const res = await fetch(`http://localhost:3000/api/admin/detailsproduct/${id}`, {
+  const res = await fetch(`https://rmdvetbiotech.vercel.app/api/admin/detailsproduct/${id}`, {
     cache: "no-store",
   });
 
