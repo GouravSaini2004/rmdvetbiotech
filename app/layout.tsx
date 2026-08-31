@@ -19,6 +19,9 @@ export const metadata: Metadata = {
   title: "RMD Vet Biotech | Science for Animal Health",
   description:
     "Science-driven, nature-inspired animal health and nutrition products for cattle, buffalo, goat, poultry, swine and companion animals.",
+   icons: {
+    icon: "/icon.png",
+  },
 };
 
 export default function RootLayout({
