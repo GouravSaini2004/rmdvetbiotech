@@ -68,11 +68,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                // className={`font-bold text-sm transition-colors ${
-                //   link.name === "Home"
-                //     ? "text-green-900 bg-green-50 px-4 py-2 rounded-full"
-                //     : "text-gray-700 hover:text-green-800"
-                // }`}
+                className="font-bold text-sm transition-colors"
               >
                 {link.name}
               </Link>
@@ -107,7 +103,7 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className=font-medium py-3 px-3 rounded-lg transition-colors
+                className="font-medium py-3 px-3 rounded-lg transition-colors"
               >
                 {link.name}
               </Link>
