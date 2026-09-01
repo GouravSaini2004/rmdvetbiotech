@@ -103,7 +103,7 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                className="font-medium py-3 px-3 rounded-lg transition-colors"
+                className="font-medium py-3 px-3 rounded-lg transition-colors text-gray-900"
               >
                 {link.name}
               </Link>
