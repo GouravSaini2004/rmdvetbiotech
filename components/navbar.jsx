@@ -68,7 +68,7 @@ export default function Navbar() {
               <Link
                 key={link.name}
                 href={link.href}
-                className="font-bold text-sm transition-colors"
+                className="font-bold text-sm transition-colors text-gray-900"
               >
                 {link.name}
               </Link>
