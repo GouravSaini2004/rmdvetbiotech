@@ -80,7 +80,7 @@ export default function Navbar() {
           </div>
 
           <a
-            href="tel:8930924593"
+            href="tel:9467005060"
             className="hidden lg:flex items-center gap-2 bg-green-900 hover:bg-green-800 text-white px-5 py-2.5 rounded-full font-semibold transition-colors"
           >
             <Phone size={16} />
@@ -107,17 +107,13 @@ export default function Navbar() {
                 key={link.name}
                 href={link.href}
                 onClick={() => setIsOpen(false)}
-                // className={`font-medium py-3 px-3 rounded-lg transition-colors ${
-                //   link.name === "Home"
-                //     ? "text-green-900 bg-green-50"
-                //     : "text-gray-700 hover:bg-gray-50"
-                // }`}
+                className={font-medium py-3 px-3 rounded-lg transition-colors }
               >
                 {link.name}
               </Link>
             ))}
             <a
-              href="tel:8930924593"
+              href="tel:9467005060"
               className="flex items-center justify-center gap-2 bg-green-900 hover:bg-green-800 text-white px-5 py-3 rounded-full font-semibold mt-3"
             >
               <Phone size={16} />
