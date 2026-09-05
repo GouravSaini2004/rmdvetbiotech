@@ -17,9 +17,17 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://www.rmdvetbiotech.com"),
+
   title: "RMD Vet Biotech | Science for Animal Health",
+
   description:
     "Science-driven, nature-inspired animal health and nutrition products for cattle, buffalo, goat, poultry, swine and companion animals.",
+
+  alternates: {
+    canonical: "/",
+  },
+
   icons: {
     icon: "/icon.png",
   },
