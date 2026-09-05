@@ -7,7 +7,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
       lastModified: new Date(),
     },
     {
-      url: "https://www.rmdvetbiotech.com/aboutus",
+      url: "https://www.rmdvetbiotech.com/aboutUs",
       lastModified: new Date(),
     },
     {
